@@ -1,0 +1,4 @@
+sch2hdl,-intstyle,ise,-family,spartan3e,-verilog,D:/lab/lab4/lab4.vf,-w,D:/lab/lab4/lab4.sch
+sch2hdl,-intstyle,ise,-family,spartan3e,-verilog,D:/lab/lab4/cal.vf,-w,D:/lab/lab4/cal.sch
+sch2hdl,-intstyle,ise,-family,spartan3e,-verilog,D:/lab/lab4/lab4.vf,-w,D:/lab/lab4/lab4.sch
+sch2hdl,-intstyle,ise,-family,spartan3e,-verilog,D:/lab/lab4/cal.vf,-w,D:/lab/lab4/cal.sch

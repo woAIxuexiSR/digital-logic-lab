@@ -1,0 +1,292 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : lab3.vf
+// /___/   /\     Timestamp : 05/30/2018 23:12:32
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan3e -verilog D:/lab/lab3-2/lab3.vf -w D:/lab/lab3-2/lab3.sch
+//Design Name: lab3
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module counter163_MUSER_lab3(CLK, 
+                             CLR, 
+                             EN, 
+                             D0, 
+                             D1, 
+                             D2, 
+                             D3);
+
+    input CLK;
+    input CLR;
+    input EN;
+   output D0;
+   output D1;
+   output D2;
+   output D3;
+   
+   wire CLK1;
+   wire XLXN_6;
+   wire XLXN_9;
+   wire XLXN_15;
+   wire XLXN_17;
+   wire XLXN_18;
+   wire XLXN_20;
+   wire XLXN_22;
+   wire D0_DUMMY;
+   wire D1_DUMMY;
+   wire D2_DUMMY;
+   wire D3_DUMMY;
+   
+   assign D0 = D0_DUMMY;
+   assign D1 = D1_DUMMY;
+   assign D2 = D2_DUMMY;
+   assign D3 = D3_DUMMY;
+   FDC #( .INIT(1'b0) ) XLXI_1 (.C(CLK1), 
+               .CLR(CLR), 
+               .D(XLXN_6), 
+               .Q(D0_DUMMY));
+   FDC #( .INIT(1'b0) ) XLXI_2 (.C(CLK1), 
+               .CLR(CLR), 
+               .D(XLXN_17), 
+               .Q(D1_DUMMY));
+   FDC #( .INIT(1'b0) ) XLXI_3 (.C(CLK1), 
+               .CLR(CLR), 
+               .D(XLXN_18), 
+               .Q(D2_DUMMY));
+   FDC #( .INIT(1'b0) ) XLXI_4 (.C(CLK1), 
+               .CLR(CLR), 
+               .D(XLXN_20), 
+               .Q(D3_DUMMY));
+   XOR2  XLXI_5 (.I0(D0_DUMMY), 
+                .I1(XLXN_22), 
+                .O(XLXN_6));
+   XOR2  XLXI_6 (.I0(D1_DUMMY), 
+                .I1(D0_DUMMY), 
+                .O(XLXN_17));
+   XOR2  XLXI_7 (.I0(D2_DUMMY), 
+                .I1(XLXN_9), 
+                .O(XLXN_18));
+   XOR2  XLXI_8 (.I0(D3_DUMMY), 
+                .I1(XLXN_15), 
+                .O(XLXN_20));
+   AND2  XLXI_9 (.I0(D0_DUMMY), 
+                .I1(D1_DUMMY), 
+                .O(XLXN_9));
+   AND3  XLXI_10 (.I0(D0_DUMMY), 
+                 .I1(D1_DUMMY), 
+                 .I2(D2_DUMMY), 
+                 .O(XLXN_15));
+   VCC  XLXI_11 (.P(XLXN_22));
+   AND2  XLXI_12 (.I0(EN), 
+                 .I1(CLK), 
+                 .O(CLK1));
+endmodule
+`timescale 1ns / 1ps
+
+module mod10_MUSER_lab3(CLK, 
+                        CLR, 
+                        EN, 
+                        D0, 
+                        D1, 
+                        D2, 
+                        D3, 
+                        RCO);
+
+    input CLK;
+    input CLR;
+    input EN;
+   output D0;
+   output D1;
+   output D2;
+   output D3;
+   output RCO;
+   
+   wire XLXN_1;
+   wire XLXN_6;
+   wire XLXN_9;
+   wire D0_DUMMY;
+   wire D1_DUMMY;
+   wire D2_DUMMY;
+   wire D3_DUMMY;
+   wire RCO_DUMMY;
+   
+   assign D0 = D0_DUMMY;
+   assign D1 = D1_DUMMY;
+   assign D2 = D2_DUMMY;
+   assign D3 = D3_DUMMY;
+   assign RCO = RCO_DUMMY;
+   counter163_MUSER_lab3  XLXI_1 (.CLK(CLK), 
+                                 .CLR(XLXN_1), 
+                                 .EN(EN), 
+                                 .D0(D0_DUMMY), 
+                                 .D1(D1_DUMMY), 
+                                 .D2(D2_DUMMY), 
+                                 .D3(D3_DUMMY));
+   OR2  XLXI_2 (.I0(CLR), 
+               .I1(RCO_DUMMY), 
+               .O(XLXN_1));
+   INV  XLXI_3 (.I(D0_DUMMY), 
+               .O(XLXN_6));
+   INV  XLXI_4 (.I(D2_DUMMY), 
+               .O(XLXN_9));
+   AND4  XLXI_5 (.I0(D3_DUMMY), 
+                .I1(XLXN_9), 
+                .I2(D1_DUMMY), 
+                .I3(XLXN_6), 
+                .O(RCO_DUMMY));
+endmodule
+`timescale 1ns / 1ps
+
+module mod6_MUSER_lab3(CLK, 
+                       CLR, 
+                       EN, 
+                       D0, 
+                       D1, 
+                       D2, 
+                       D3, 
+                       RCO);
+
+    input CLK;
+    input CLR;
+    input EN;
+   output D0;
+   output D1;
+   output D2;
+   output D3;
+   output RCO;
+   
+   wire XLXN_1;
+   wire XLXN_5;
+   wire XLXN_6;
+   wire D0_DUMMY;
+   wire D1_DUMMY;
+   wire D2_DUMMY;
+   wire D3_DUMMY;
+   wire RCO_DUMMY;
+   
+   assign D0 = D0_DUMMY;
+   assign D1 = D1_DUMMY;
+   assign D2 = D2_DUMMY;
+   assign D3 = D3_DUMMY;
+   assign RCO = RCO_DUMMY;
+   counter163_MUSER_lab3  XLXI_1 (.CLK(CLK), 
+                                 .CLR(XLXN_1), 
+                                 .EN(EN), 
+                                 .D0(D0_DUMMY), 
+                                 .D1(D1_DUMMY), 
+                                 .D2(D2_DUMMY), 
+                                 .D3(D3_DUMMY));
+   OR2  XLXI_2 (.I0(CLR), 
+               .I1(RCO_DUMMY), 
+               .O(XLXN_1));
+   INV  XLXI_3 (.I(D0_DUMMY), 
+               .O(XLXN_5));
+   INV  XLXI_4 (.I(D3_DUMMY), 
+               .O(XLXN_6));
+   AND4  XLXI_5 (.I0(XLXN_6), 
+                .I1(D2_DUMMY), 
+                .I2(D1_DUMMY), 
+                .I3(XLXN_5), 
+                .O(RCO_DUMMY));
+endmodule
+`timescale 1ns / 1ps
+
+module lab3(btn0, 
+            btn1, 
+            mclk, 
+            an, 
+            dp, 
+            seg);
+
+    input btn0;
+    input btn1;
+    input mclk;
+   output [3:0] an;
+   output dp;
+   output [6:0] seg;
+   
+   wire [3:0] seg0;
+   wire [3:0] seg1;
+   wire [3:0] seg2;
+   wire [3:0] seg3;
+   wire XLXN_18;
+   wire XLXN_21;
+   wire XLXN_22;
+   wire XLXN_23;
+   wire XLXN_24;
+   wire XLXN_27;
+   wire XLXN_28;
+   wire [3:0] XLXN_63;
+   wire XLXN_67;
+   wire [3:0] an_DUMMY;
+   
+   assign an[3:0] = an_DUMMY[3:0];
+   pause  XLXI_2 (.btn0(btn0), 
+                 .btn1(btn1), 
+                 .mclk(mclk), 
+                 .ST(XLXN_18));
+   mod10_MUSER_lab3  XLXI_3 (.CLK(XLXN_27), 
+                            .CLR(btn0), 
+                            .EN(XLXN_18), 
+                            .D0(seg0[0]), 
+                            .D1(seg0[1]), 
+                            .D2(seg0[2]), 
+                            .D3(seg0[3]), 
+                            .RCO(XLXN_21));
+   mod10_MUSER_lab3  XLXI_4 (.CLK(XLXN_27), 
+                            .CLR(btn0), 
+                            .EN(XLXN_21), 
+                            .D0(seg1[0]), 
+                            .D1(seg1[1]), 
+                            .D2(seg1[2]), 
+                            .D3(seg1[3]), 
+                            .RCO(XLXN_22));
+   mod6_MUSER_lab3  XLXI_5 (.CLK(XLXN_27), 
+                           .CLR(btn0), 
+                           .EN(XLXN_23), 
+                           .D0(seg2[0]), 
+                           .D1(seg2[1]), 
+                           .D2(seg2[2]), 
+                           .D3(seg2[3]), 
+                           .RCO(XLXN_24));
+   mod10_MUSER_lab3  XLXI_6 (.CLK(XLXN_27), 
+                            .CLR(btn0), 
+                            .EN(XLXN_24), 
+                            .D0(seg3[0]), 
+                            .D1(seg3[1]), 
+                            .D2(seg3[2]), 
+                            .D3(seg3[3]), 
+                            .RCO());
+   AND2  XLXI_7 (.I0(XLXN_22), 
+                .I1(XLXN_21), 
+                .O(XLXN_23));
+   myCLK  XLXI_8 (.mclk(mclk), 
+                 .CLK(XLXN_28));
+   BUFG  XLXI_9 (.I(XLXN_28), 
+                .O(XLXN_27));
+   an_gen  XLXI_10 (.btn0(XLXN_67), 
+                   .mclk(mclk), 
+                   .an(an_DUMMY[3:0]));
+   MUX  XLXI_11 (.an(an_DUMMY[3:0]), 
+                .seg0(seg0[3:0]), 
+                .seg1(seg1[3:0]), 
+                .seg2(seg2[3:0]), 
+                .seg3(seg3[3:0]), 
+                .dp(dp), 
+                .seg(XLXN_63[3:0]));
+   LED  XLXI_12 (.bcd(XLXN_63[3:0]), 
+                .led(seg[6:0]));
+   GND  XLXI_14 (.G(XLXN_67));
+endmodule

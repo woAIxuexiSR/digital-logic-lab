@@ -1,0 +1,14 @@
+Running: D:\Xilinx_ISE\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o D:/lab/lab2-3/lab2_lab2_sch_tb_isim_beh.exe -prj D:/lab/lab2-3/lab2_lab2_sch_tb_beh.prj lab2_lab2_sch_tb work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/lab/lab2-3/MUX.v" into library work
+Analyzing Verilog file "D:/lab/lab2-3/LED.v" into library work
+Analyzing Verilog file "D:/lab/lab2-3/bin2bcd.v" into library work
+Analyzing Verilog file "D:/lab/lab2-3/bcd2bin.v" into library work
+Analyzing Verilog file "D:/lab/lab2-3/an_gen.v" into library work
+Analyzing Verilog file "D:/lab/lab2-3/Adder.v" into library work
+Analyzing Verilog file "D:/lab/lab2-3/lab2.vf" into library work
+Analyzing Verilog file "D:/Xilinx_ISE/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+ERROR:Simulator:702 - Can not find design unit lab2_lab2_sch_tb in library work located at isim/work 

@@ -1,0 +1,3 @@
+MODULE gate2
+	SUBMODULE fulladder
+		INSTANCE XLXI_19

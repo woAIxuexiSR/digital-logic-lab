@@ -1,0 +1,10 @@
+vhdtdtfi -lib work D:/lab/lab2-3/bcd2bin.v -lang verilog -prj lab2-3 -o bcd2bin.spl -module bcd2bin -template D:/Xilinx_ISE/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e bcd2bin.spl D:/lab/lab2-3/bcd2bin.sym 
+vhdtdtfi -lib work D:/lab/lab2-3/bcd2bin.v -lang verilog -prj lab2-3 -o bcd2bin.spl -module bcd2bin -template D:/Xilinx_ISE/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e bcd2bin.spl D:/lab/lab2-3/bcd2bin.sym 
+vhdtdtfi -lib work D:/lab/lab2-3/bcd2bin.v -lang verilog -prj lab2-3 -o bcd2bin.spl -module bcd2bin -template D:/Xilinx_ISE/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e bcd2bin.spl D:/lab/lab2-3/bcd2bin.sym 
+vhdtdtfi -lib work D:/lab/lab2-3/bcd2bin.v -lang verilog -prj lab2-3 -o bcd2bin.spl -module bcd2bin -template D:/Xilinx_ISE/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e bcd2bin.spl D:/lab/lab2-3/bcd2bin.sym 
+vhdtdtfi -lib work D:/lab/lab2-3/bcd2bin.v -lang verilog -prj lab2-3 -o bcd2bin.spl -module bcd2bin -template D:/Xilinx_ISE/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e bcd2bin.spl D:/lab/lab2-3/bcd2bin.sym 

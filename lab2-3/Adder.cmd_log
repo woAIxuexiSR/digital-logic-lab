@@ -1,0 +1,4 @@
+vhdtdtfi -lib work D:/lab/lab2-3/Adder.v -lang verilog -prj lab2-3 -o Adder.spl -module Adder -template D:/Xilinx_ISE/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Adder.spl D:/lab/lab2-3/Adder.sym 
+vhdtdtfi -lib work D:/lab/lab2-3/Adder.v -lang verilog -prj lab2-3 -o Adder.spl -module Adder -template D:/Xilinx_ISE/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Adder.spl D:/lab/lab2-3/Adder.sym 

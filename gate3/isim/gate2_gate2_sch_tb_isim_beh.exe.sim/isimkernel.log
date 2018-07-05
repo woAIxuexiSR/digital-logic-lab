@@ -1,0 +1,29 @@
+Command line:
+   gate2_gate2_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  63566
+
+Thu Apr 05 10:47:06 2018
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 1040.4 Meg
+
+ Total Signals          : 38
+ Total Nets             : 24
+ Total Signal Drivers   : 14
+ Total Blocks           : 10
+ Total Primitive Blocks : 8
+ Total Processes        : 17
+ Total Traceable Variables  : 20
+ Total Scalar Nets and Variables : 108
+Total Line Count : 36
+
+ Total Simulation Time: 0.0625 sec
+
+ Current Memory Usage: 1040.4 Meg
+
+Thu Apr 05 10:47:13 2018
+

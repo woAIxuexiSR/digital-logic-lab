@@ -1,0 +1,7 @@
+verilog work "MUX.v"
+verilog work "LED.v"
+verilog work "bin2bcd.v"
+verilog work "bcd2bin.v"
+verilog work "an_gen.v"
+verilog work "Adder.v"
+verilog work "lab2.vf"

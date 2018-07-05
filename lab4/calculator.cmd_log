@@ -1,0 +1,16 @@
+vhdtdtfi -lib work D:/lab/lab4/calculator.v -lang verilog -prj lab4 -o calculator.spl -module calculator -template D:/Xilinx_ISE/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e calculator.spl D:/lab/lab4/calculator.sym 
+vhdtdtfi -lib work D:/lab/lab4/calculator.v -lang verilog -prj lab4 -o calculator.spl -module calculator -template D:/Xilinx_ISE/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e calculator.spl D:/lab/lab4/calculator.sym 
+vhdtdtfi -lib work D:/lab/lab4/calculator.v -lang verilog -prj lab4 -o calculator.spl -module calculator -template D:/Xilinx_ISE/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e calculator.spl D:/lab/lab4/calculator.sym 
+vhdtdtfi -lib work D:/lab/lab4/calculator.v -lang verilog -prj lab4 -o calculator.spl -module calculator -template D:/Xilinx_ISE/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e calculator.spl D:/lab/lab4/calculator.sym 
+vhdtdtfi -lib work D:/lab/lab4/calculator.v -lang verilog -prj lab4 -o calculator.spl -module calculator -template D:/Xilinx_ISE/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e calculator.spl D:/lab/lab4/calculator.sym 
+vhdtdtfi -lib work D:/lab/lab4/calculator.v -lang verilog -prj lab4 -o calculator.spl -module calculator -template D:/Xilinx_ISE/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e calculator.spl D:/lab/lab4/calculator.sym 
+vhdtdtfi -lib work D:/lab/lab4/calculator.v -lang verilog -prj lab4 -o calculator.spl -module calculator -template D:/Xilinx_ISE/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e calculator.spl D:/lab/lab4/calculator.sym 
+vhdtdtfi -lib work D:/lab/lab4/calculator.v -lang verilog -prj lab4 -o calculator.spl -module calculator -template D:/Xilinx_ISE/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e calculator.spl D:/lab/lab4/calculator.sym 

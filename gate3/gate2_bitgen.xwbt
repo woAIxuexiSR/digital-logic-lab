@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\lalb0\gate3\gate2.ncd
+OUTFILE=D:\lalb0\gate3\gate2.bit
+FAMILY=Spartan3E
+PART=xc3s100e-5cp132
+WORKINGDIR=D:\lalb0\gate3
+LICENSE=WebPack
+USER_INFO=174169066_174169067_0_271

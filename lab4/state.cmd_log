@@ -1,0 +1,2 @@
+vhdtdtfi -lib work D:/lab/lab4/state.v -lang verilog -prj lab4 -o state.spl -module state -template D:/Xilinx_ISE/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e state.spl D:/lab/lab4/state.sym 

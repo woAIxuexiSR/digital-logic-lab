@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family spartan3e -refsym mod10 D:/lab/lab3-2/mod10.sch D:/lab/lab3-2/mod10.sym 

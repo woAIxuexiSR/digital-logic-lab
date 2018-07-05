@@ -1,0 +1,32 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : lab1_drc.vf
+// /___/   /\     Timestamp : 04/14/2018 18:47:06
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: D:\Xilinx_ISE\14.7\ISE_DS\ISE\bin\nt64\unwrapped\sch2hdl.exe -intstyle ise -family spartan3e -verilog lab1_drc.vf -w D:/lab/lab1/lab1.sch
+//Design Name: lab1
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module lab1(SW, 
+            LD);
+
+    input [7:0] SW;
+   output [7:0] LD;
+   
+   
+   trans  XLXI_1 (.bcd(SW[7:0]), 
+                 .binary(LD[7:0]));
+endmodule

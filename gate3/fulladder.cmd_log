@@ -1,0 +1,10 @@
+vhdtdtfi -lib work D:/lalb0/gate3/fulladder.v -lang verilog -prj gate3 -o fulladder.spl -module fulladder -template D:/Xilinx_ISE/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e fulladder.spl D:/lalb0/gate3/fulladder.sym 
+vhdtdtfi -lib work D:/lalb0/gate3/fulladder.v -lang verilog -prj gate3 -o fulladder.spl -module fulladder -template D:/Xilinx_ISE/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e fulladder.spl D:/lalb0/gate3/fulladder.sym 
+vhdtdtfi -lib work D:/lalb0/gate3/fulladder.v -lang verilog -prj gate3 -o fulladder.spl -module fulladder -template D:/Xilinx_ISE/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e fulladder.spl D:/lalb0/gate3/fulladder.sym 
+vhdtdtfi -lib work D:/lalb0/gate3/fulladder.v -lang verilog -prj gate3 -o fulladder.spl -module fulladder -template D:/Xilinx_ISE/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e fulladder.spl D:/lalb0/gate3/fulladder.sym 
+vhdtdtfi -lib work D:/lalb0/gate3/fulladder.v -lang verilog -prj gate3 -o fulladder.spl -module fulladder -template D:/Xilinx_ISE/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e fulladder.spl D:/lalb0/gate3/fulladder.sym 

@@ -1,0 +1,2 @@
+vhdtdtfi -lib work D:/lab/lab1/trans.v -lang verilog -prj lab1 -o trans.spl -module trans -template D:/Xilinx_ISE/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e trans.spl D:/lab/lab1/trans.sym 

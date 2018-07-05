@@ -1,0 +1,13 @@
+[Inputs]
+=seg3[3:0]=
+=seg2[3:0]=
+=seg1[3:0]=
+=seg0[3:0]=
+=an[3:0]=
+[Outputs]
+dp
+=seg[3:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel MUX
+

@@ -1,0 +1,2 @@
+sch2sym -intstyle ise -family spartan3e -refsym counter163 D:/lab/lab3-2/counter163.sch D:/lab/lab3-2/counter163.sym 
+sch2sym -intstyle ise -family spartan3e -refsym counter163 D:/lab/lab3-2/counter163.sch D:/lab/lab3-2/counter163.sym 

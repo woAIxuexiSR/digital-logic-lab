@@ -1,0 +1,67 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : lab2.vf
+// /___/   /\     Timestamp : 05/10/2018 00:58:37
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan3e -verilog D:/lab/lab2-3/lab2.vf -w D:/lab/lab2-3/lab2.sch
+//Design Name: lab2
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module lab2(btn0, 
+            mclk, 
+            SW, 
+            an, 
+            dp, 
+            SEG);
+
+    input btn0;
+    input mclk;
+    input [7:0] SW;
+   output [3:0] an;
+   output dp;
+   output [6:0] SEG;
+   
+   wire [7:0] A;
+   wire [3:0] XLXN_17;
+   wire [3:0] XLXN_18;
+   wire [4:0] XLXN_19;
+   wire [6:0] XLXN_29;
+   wire [6:0] XLXN_30;
+   wire [3:0] an_DUMMY;
+   
+   assign an[3:0] = an_DUMMY[3:0];
+   an_gen  XLXI_1 (.btn0(btn0), 
+                  .mclk(mclk), 
+                  .an(an_DUMMY[3:0]));
+   bcd2bin  XLXI_2 (.bcd(SW[7:4]), 
+                   .bin(XLXN_18[3:0]));
+   bcd2bin  XLXI_3 (.bcd(SW[3:0]), 
+                   .bin(XLXN_17[3:0]));
+   Adder  XLXI_4 (.a(XLXN_18[3:0]), 
+                 .b(XLXN_17[3:0]), 
+                 .sum(XLXN_19[4:0]));
+   bin2bcd  XLXI_5 (.bin(XLXN_19[4:0]), 
+                   .bcd(A[7:0]));
+   LED  XLXI_14 (.bcd(A[7:4]), 
+                .led(XLXN_29[6:0]));
+   LED  XLXI_15 (.bcd(A[3:0]), 
+                .led(XLXN_30[6:0]));
+   MUX  XLXI_16 (.an(an_DUMMY[3:0]), 
+                .seg0(XLXN_30[6:0]), 
+                .seg1(XLXN_29[6:0]), 
+                .seg(SEG[6:0]));
+   VCC  XLXI_20 (.P(dp));
+endmodule

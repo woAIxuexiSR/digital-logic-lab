@@ -1,0 +1,8 @@
+[Inputs]
+btn3
+[Outputs]
+ST
+[BiDir]
+[ATTRIBUTES]
+VeriModel state
+

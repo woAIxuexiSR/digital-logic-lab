@@ -1,0 +1,16 @@
+[Inputs]
+dp1
+dp0
+ST
+=an1[3:0]=
+=seg1[6:0]=
+=an0[3:0]=
+=seg0[6:0]=
+[Outputs]
+dp
+=an[3:0]=
+=seg[6:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel mmux
+

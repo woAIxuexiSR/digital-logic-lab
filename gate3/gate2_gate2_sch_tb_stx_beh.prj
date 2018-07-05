@@ -1,0 +1,4 @@
+verilog isim_temp "fulladder.v"
+verilog isim_temp "gate2.vf"
+verilog isim_temp "gate3.v"
+verilog isim_temp "D:/Xilinx_ISE/14.7/ISE_DS/ISE//verilog/src/glbl.v"

@@ -1,0 +1,4 @@
+vhdtdtfi -lib work D:/lab/lab2-3/LED.v -lang verilog -prj lab2-3 -o LED.spl -module LED -template D:/Xilinx_ISE/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e LED.spl D:/lab/lab2-3/LED.sym 
+vhdtdtfi -lib work D:/lab/lab2-3/LED.v -lang verilog -prj lab2-3 -o LED.spl -module LED -template D:/Xilinx_ISE/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e LED.spl D:/lab/lab2-3/LED.sym 

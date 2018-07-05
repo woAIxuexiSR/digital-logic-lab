@@ -1,0 +1,2 @@
+vhdtdtfi -lib work D:/lab/lab3-2/pause.v -lang verilog -prj lab3-2 -o pause.spl -module pause -template D:/Xilinx_ISE/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e pause.spl D:/lab/lab3-2/pause.sym 

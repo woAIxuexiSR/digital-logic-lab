@@ -1,0 +1,5 @@
+set -tmpdir "D:/lalb0/gate3/xst/projnav.tmp"
+set -xsthdpdir "D:/lalb0/gate3/xst"
+elaborate
+-ifn fulladder.prj
+-ifmt mixed

@@ -1,0 +1,3 @@
+MODULE lab1
+	SUBMODULE trans
+		INSTANCE XLXI_1

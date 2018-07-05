@@ -1,0 +1,24 @@
+sch2hdl -intstyle ise -family spartan3e -verilog cal_drc.vf -w D:/lab/lab4/cal.sch 
+sch2hdl -intstyle ise -family spartan3e -verilog cal_drc.vf -w D:/lab/lab4/cal.sch 
+sch2hdl -intstyle ise -family spartan3e -verilog cal_drc.vf -w D:/lab/lab4/cal.sch 
+sch2hdl -intstyle ise -family spartan3e -verilog cal_drc.vf -w D:/lab/lab4/cal.sch 
+sch2sym -intstyle ise -family spartan3e -refsym cal D:/lab/lab4/cal.sch D:/lab/lab4/cal.sym 
+sch2sym -intstyle ise -family spartan3e -refsym cal D:/lab/lab4/cal.sch D:/lab/lab4/cal.sym 
+sch2sym -intstyle ise -family spartan3e -refsym cal D:/lab/lab4/cal.sch D:/lab/lab4/cal.sym 
+sch2hdl -intstyle ise -family spartan3e -verilog cal_drc.vf -w D:/lab/lab4/cal.sch 
+sch2sym -intstyle ise -family spartan3e -refsym cal D:/lab/lab4/cal.sch D:/lab/lab4/cal.sym 
+sch2sym -intstyle ise -family spartan3e -refsym cal D:/lab/lab4/cal.sch D:/lab/lab4/cal.sym 
+sch2sym -intstyle ise -family spartan3e -w -refsym cal D:/lab/lab4/cal.sch D:/lab/lab4/cal.sym 
+sch2hdl -intstyle ise -family spartan3e -verilog cal_drc.vf -w D:/lab/lab4/cal.sch 
+sch2sym -intstyle ise -family spartan3e -refsym cal D:/lab/lab4/cal.sch D:/lab/lab4/cal.sym 
+sch2sym -intstyle ise -family spartan3e -refsym cal D:/lab/lab4/cal.sch D:/lab/lab4/cal.sym 
+sch2sym -intstyle ise -family spartan3e -refsym cal D:/lab/lab4/cal.sch D:/lab/lab4/cal.sym 
+sch2sym -intstyle ise -family spartan3e -refsym cal D:/lab/lab4/cal.sch D:/lab/lab4/cal.sym 
+sch2sym -intstyle ise -family spartan3e -refsym cal D:/lab/lab4/cal.sch D:/lab/lab4/cal.sym 
+sch2sym -intstyle ise -family spartan3e -refsym cal D:/lab/lab4/cal.sch D:/lab/lab4/cal.sym 
+sch2sym -intstyle ise -family spartan3e -refsym cal D:/lab/lab4/cal.sch D:/lab/lab4/cal.sym 
+sch2sym -intstyle ise -family spartan3e -refsym cal D:/lab/lab4/cal.sch D:/lab/lab4/cal.sym 
+sch2sym -intstyle ise -family spartan3e -refsym cal D:/lab/lab4/cal.sch D:/lab/lab4/cal.sym 
+sch2sym -intstyle ise -family spartan3e -refsym cal D:/lab/lab4/cal.sch D:/lab/lab4/cal.sym 
+sch2sym -intstyle ise -family spartan3e -refsym cal D:/lab/lab4/cal.sch D:/lab/lab4/cal.sym 
+sch2sym -intstyle ise -family spartan3e -refsym cal D:/lab/lab4/cal.sch D:/lab/lab4/cal.sym 

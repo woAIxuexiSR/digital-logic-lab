@@ -1,0 +1,8 @@
+vhdtdtfi -lib work D:/lab/lab3-2/MUX.v -lang verilog -prj lab3-2 -o MUX.spl -module MUX -template D:/Xilinx_ISE/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e MUX.spl D:/lab/lab3-2/MUX.sym 
+vhdtdtfi -lib work D:/lab/lab3-2/MUX.v -lang verilog -prj lab3-2 -o MUX.spl -module MUX -template D:/Xilinx_ISE/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e MUX.spl D:/lab/lab3-2/MUX.sym 
+vhdtdtfi -lib work D:/lab/lab3-2/MUX.v -lang verilog -prj lab3-2 -o MUX.spl -module MUX -template D:/Xilinx_ISE/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e MUX.spl D:/lab/lab3-2/MUX.sym 
+vhdtdtfi -lib work D:/lab/lab3-2/MUX.v -lang verilog -prj lab3-2 -o MUX.spl -module MUX -template D:/Xilinx_ISE/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e MUX.spl D:/lab/lab3-2/MUX.sym 
